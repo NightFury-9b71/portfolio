@@ -1,7 +1,8 @@
 // components/ContactSection.jsx
-import React from 'react';
-import { Github, Linkedin, Mail, Download, Phone, MapPin } from 'lucide-react';
-import { PERSONAL_INFO, SOCIAL_LINKS, CONTACT_MESSAGES } from '../portfolioData';
+import React, { useState } from 'react';
+import { Mail, Phone, MapPin, Download, Github, Linkedin, Send, CheckCircle } from 'lucide-react';
+import { PERSONAL_INFO, SOCIAL_LINKS } from '../data/personalData';
+import { CONTACT_MESSAGES } from '../data/contactData';
 
 const ContactSection = () => {
   const handleDownloadResume = () => {

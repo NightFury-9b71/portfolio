@@ -1,7 +1,7 @@
 // components/WorkSection.jsx
 import React, { useState, useEffect } from 'react';
 import { ExternalLink, Github } from 'lucide-react';
-import { PROJECTS_DATA } from '../portfolioData';
+import { PROJECTS_DATA } from '../data/projectsData';
 
 const WorkSection = () => {
   const [activeCard, setActiveCard] = useState(null);

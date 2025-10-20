@@ -1,7 +1,7 @@
 // components/CertificationsSection.jsx
 import React, { useState } from 'react';
 import { Award, BookOpen, Calendar, Image as ImageIcon, CheckCircle } from 'lucide-react';
-import { CERTIFICATIONS_DATA } from '../portfolioData';
+import { CERTIFICATIONS_DATA } from '../data/certificationsData';
 import ImageModal from './ImageModal';
 
 /**

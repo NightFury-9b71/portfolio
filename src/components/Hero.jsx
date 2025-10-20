@@ -1,7 +1,7 @@
 // components/Hero.jsx
 import React, { useState, useEffect } from 'react';
 import { Download, ChevronDown, MapPin, Award, Eye } from 'lucide-react';
-import { PERSONAL_INFO } from '../portfolioData';
+import { PERSONAL_INFO } from '../data/personalData';
 
 const Hero = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,7 +33,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative px-4 sm:px-6">        
+    <section className="min-h-screen flex items-center justify-center relative px-4 sm:px-6 pt-20 sm:pt-24">        
       <div className="text-center max-w-4xl mx-auto relative z-10">
         <div className="mb-6 sm:mb-8">
           <div 

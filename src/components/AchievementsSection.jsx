@@ -1,7 +1,7 @@
 // components/AchievementsSection.jsx
 import React, { useState } from 'react';
 import { Trophy, Medal, Award, Users, Image as ImageIcon } from 'lucide-react';
-import { ACHIEVEMENTS_DATA } from '../portfolioData';
+import { ACHIEVEMENTS_DATA } from '../data/achievementsData';
 import ImageModal from './ImageModal';
 
 /**

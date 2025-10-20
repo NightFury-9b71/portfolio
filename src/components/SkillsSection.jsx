@@ -1,6 +1,7 @@
 // components/SkillsSection.jsx
 import React from 'react';
-import { SKILLS_DATA } from '../portfolioData';
+import { Code, Database, Brain, Cpu, Monitor, Layers } from 'lucide-react';
+import { SKILLS_DATA } from '../data/skillsData';
 
 const SkillsSection = () => {
   const getProficiencyWidth = (proficiency) => {

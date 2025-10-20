@@ -1,7 +1,7 @@
 // components/AboutSection.jsx
 import React from 'react';
 import { GraduationCap, Star, BookOpen } from 'lucide-react';
-import { ABOUT_TEXT, ABOUT_STATS, EDUCATION_DATA } from '../portfolioData';
+import { ABOUT_TEXT, ABOUT_STATS, EDUCATION_DATA } from '../data/personalData';
 
 const AboutSection = () => {
   return (

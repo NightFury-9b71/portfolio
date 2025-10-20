@@ -1,7 +1,7 @@
 // components/Navigation.jsx
 import React, { useState, useEffect } from 'react';
 import { Download, Menu, X } from 'lucide-react';
-import { PERSONAL_INFO } from '../portfolioData';
+import { PERSONAL_INFO } from '../data/personalData';
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);

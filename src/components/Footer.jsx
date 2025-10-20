@@ -1,6 +1,7 @@
 // components/Footer.jsx
 import React from 'react';
-import { FOOTER_INFO } from '../portfolioData';
+import { Heart } from 'lucide-react';
+import { FOOTER_INFO } from '../data/contactData';
 
 const Footer = () => {
   return (

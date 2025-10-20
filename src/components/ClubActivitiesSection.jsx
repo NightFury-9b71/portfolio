@@ -1,7 +1,7 @@
 // components/ClubActivitiesSection.jsx
 import React, { useState } from 'react';
-import { Users, TrendingUp, Award, Calendar, CheckCircle, DollarSign, Image as ImageIcon } from 'lucide-react';
-import { CLUB_ACTIVITIES_DATA } from '../portfolioData';
+import { Users, Calendar, Award, Target, TrendingUp, Image as ImageIcon, FileText, ChevronLeft, ChevronRight, X, DollarSign, CheckCircle } from 'lucide-react';
+import { CLUB_ACTIVITIES_DATA } from '../data/clubActivitiesData';
 import ImageModal from './ImageModal';
 
 /**

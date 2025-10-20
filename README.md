@@ -193,11 +193,6 @@ npm run build
 - ✅ Delete `node_modules/` and reinstall
 - ✅ Check for syntax errors
 
-## 📚 Documentation
-
-- **IMAGE_SETUP_GUIDE.md** - How to add all your images
-- **PORTFOLIO_UPDATE_SUMMARY.md** - Complete update details
-- **README.md** - This file!
 
 ## 📧 Contact
 
