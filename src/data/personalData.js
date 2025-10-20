@@ -12,7 +12,7 @@ export const PERSONAL_INFO = {
   cgpa: '2.80',
   experience: 'Student Developer',
   availability: 'Open to Opportunities',
-  profileImage: '/profile/cover_2.png',
+  profileImage: '/profile/cover_0.png',
   resumeFile: '/resume-abdullah-noman.pdf',
   resumeFilename: 'Abdullah-Al-Noman-Resume.pdf'
 };
