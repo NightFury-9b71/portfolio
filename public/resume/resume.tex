@@ -1,0 +1,270 @@
+%-------------------------
+% Resume in LaTeX
+% Author : Abdullah Al Noman
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Abdullah Al Noman} \\ \vspace{1pt}
+    Jashore University of Science and Technology \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +880-1839-743638 ~ \href{mailto:nightfuryno9@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{nightfuryno9@gmail.com}} ~ 
+    \href{https://linkedin.com/in/nomanstine}{\raisebox{-0.2\height}\faLinkedin\ \underline{nomanstine}}  ~
+    \href{https://github.com/nightfury-9b71}{\raisebox{-0.2\height}\faGithub\ \underline{nightfury-9b71}} ~
+    \href{https://www.kaggle.com/nomanstine}{\raisebox{-0.2\height}\faKaggle\ \underline{nomanstine}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Jashore University of Science and Technology}{Jashore, Bangladesh}
+      {Bachelor of Science in Computer Science \& Engineering -- CGPA: 2.8/4.0}{Expected 2026}
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C/C++, Python, JavaScript, Java, Php, HTML, CSS, SQL} \\
+     \textbf{Frameworks \& Libraries}{: fastapi, sqlmodel, nodejs, React, NextJs} \\
+     \textbf{Tools \& Technologies}{: Git, GitHub, Web Scraping, RESTful APIs, Linux} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    
+      \resumeProjectHeading
+          {\textbf{Boi Adda -- Book Sharing Platform} $|$ \emph{Full-Stack Development}}{\href{https://boi-adda.onrender.com}{Live}}
+          \resumeItemListStart
+            \resumeItem{Developed a comprehensive book sharing platform enabling users to exchange and discover books}
+            \resumeItem{Implemented user authentication, book catalog management, and community interaction features}
+            \resumeItem{Technologies: React, Fastapi, Postgresql}
+            \resumeItem{\href{https://github.com/NightFury-9b71/boi-adda}{GitHub} $|$ \href{https://boi-adda.onrender.com}{Live Demo}}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\textbf{Science Point -- Coaching Management System} $|$ \emph{Full-Stack Development}}{\href{https://science-point.onrender.com}{Live}}
+          \resumeItemListStart
+            \resumeItem{Built end-to-end management system for coaching institutes with student enrollment and class scheduling}
+            \resumeItem{Implemented progress tracking, payment management, and communication modules}
+            \resumeItem{Technologies: React, Fastapi, Postgresql}
+            \resumeItem{\href{https://github.com/NightFury-9b71/science-point}{GitHub} $|$ \href{https://science-point.onrender.com}{Live Demo}}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\textbf{NewsPlus BD -- AI News Summarizer} $|$ \emph{Backend Development}}{}
+          \resumeItemListStart
+            \resumeItem{Developed intelligent news summarization application using NLP and machine learning}
+            \resumeItem{Implemented automated news aggregation from multiple sources with AI-powered summarization}
+            \resumeItem{Enhanced user experience by delivering concise, relevant news updates in real-time}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\textbf{FakeNewsDetection -- News Verification System} $|$ \emph{Full-Stack Development}}{}
+          \resumeItemListStart
+            \resumeItem{Created web application to detect fake news using BERT model and web scraping techniques}
+            \resumeItem{Implemented ML pipeline for news authenticity verification with 85\%+ accuracy}
+            \resumeItem{Contributed to combating misinformation through AI-driven content analysis}
+            \resumeItem{\href{https://github.com/NightFury-9b71/FakeNewsDetection}{GitHub}}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\textbf{AutoDocs -- Certificate Generation System} $|$ \emph{Frontend Development}}{\href{https://auto-docs.onrender.com}{Live}}
+          \resumeItemListStart
+            \resumeItem{Built automated certificate generation website for events and workshops}
+            \resumeItem{Reduced manual certificate creation effort by 90\% through template-based automation}
+            \resumeItem{Implemented bulk processing capabilities for large-scale event management}
+            \resumeItem{\href{https://github.com/NightFury-9b71/AutoDocs-Cse}{GitHub} $|$ \href{https://auto-docs.onrender.com}{Live Demo}}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\textbf{JUSTcseClub -- Club Management Platform} $|$ \emph{Frontend Development}}{}
+          \resumeItemListStart
+            \resumeItem{Designed platform for managing CSE club activities, events, and member registration}
+            \resumeItem{Enhanced student engagement through centralized announcement and event management system}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\textbf{Bit-Talker -- Desktop Messaging App} $|$ \emph{Full-Stack Development}}{}
+          \resumeItemListStart
+            \resumeItem{Developed desktop messaging application using PyQt framework with real-time communication}
+            \resumeItem{Implemented user authentication, message encryption, and intuitive UI/UX design}
+            \resumeItem{\href{https://github.com/NightFury-9b71/Bit-Talker}{GitHub}}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\textbf{Chess Playing Robotic Arm} $|$ \emph{IoT \& Robotics}}{}
+          \resumeItemListStart
+            \resumeItem{Designed and prototyped IoT-based robotic arm for playing chess using computer vision}
+            \resumeItem{Gained hands-on experience with servo motors, Arduino, and real-time object detection}
+            \resumeItem{\href{https://github.com/NightFury-9b71/chess-playing-hand-bot}{GitHub}}
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------ACHIEVEMENTS-----------
+\section{Competitive Achievements}
+    \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+          {\textbf{CTF Competition, BUET} $|$ \emph{52nd Place (70 teams)}}{2023}
+          \resumeItemListStart
+            \resumeItem{Solved challenges in cryptography, web security, and reverse engineering}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\textbf{Datathon, Khulna University} $|$ \emph{6th Place (120 teams)}}{2024}
+          \resumeItemListStart
+            \resumeItem{Applied statistical methods and predictive modeling on real-world datasets}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      
+      \resumeProjectHeading
+          {\textbf{Datathon, KUET} $|$ \emph{56th Place (200 teams)}}{2025}
+          \resumeItemListStart
+            \resumeItem{Developed innovative data-driven solutions under competitive time constraints}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Hackathon, Green University} $|$ \emph{41st Place (247 teams)}}{2025}
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------LEADERSHIP & ACTIVITIES-----------
+\section{Leadership \& Extracurricular Activities}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Assistant Treasurer} $|$ \emph{Robo Society Club, JUST}}{2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{Managed club finances, budgeting for events, and coordinated with team members}
+            \resumeItem{Organized Cubical 1.0 \& 2.0 programs with 100+ participants}
+            \resumeItem{Coordinated national events: Line Following Robot competition and project showcases}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Event Volunteer} $|$ \emph{National Competitive Programming, Chess, Quiz Competitions}}{2024 -- 2025}
+    \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+    \begin{itemize}[leftmargin=0.15in, label={}]
+        \small{\item{
+         \textbf{Machine Learning with Python} -- Online Certification \\
+         \textbf{Cubical 2.0 Program Certificate} -- Robo Society Club \\
+         \textbf{Competition Certificates} -- Datathon (KU, KUET), Hackathons (BUP, Green University)
+        }}
+    \end{itemize}
+\vspace{-16pt}
+
+\end{document}
